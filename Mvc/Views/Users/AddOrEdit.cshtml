@@ -1,0 +1,36 @@
+﻿@model Mvc.Models.MVCUsersModel
+@{
+    ViewBag.Title = "AddOrEdit";
+}
+
+<div class="form-body">
+    @using (Html.BeginForm())
+    {
+        @Html.HiddenFor(model => model.usr_id)
+        <div class="form-group">
+            @Html.LabelFor(model => model.usr_nom)
+            @Html.EditorFor(model => model.usr_nom)
+            @Html.ValidationMessageFor(model => model.usr_nom)
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.email)
+            @Html.EditorFor(model => model.email)
+            @Html.ValidationMessageFor(model => model.email)
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.usr_nom)
+            @Html.EditorFor(model => model.usr_nom)
+            @Html.ValidationMessageFor(model => model.usr_nom)
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.usr_nom)
+            @Html.EditorFor(model => model.usr_nom)
+            @Html.ValidationMessageFor(model => model.usr_nom)
+
+        </div>
+    }
+</div>
+

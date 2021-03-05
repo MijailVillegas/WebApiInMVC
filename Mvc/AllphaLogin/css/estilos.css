@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: 'Segoe UI';
+}
+
+.Login-box {
+    width: 580px;
+    height: 720px;
+    background-color: #FF7A00;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.Login-box .Logo-img{
+    width: 200px;
+    height: 200px;
+    color: #FF7A00;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 100px);
+}
+
+.Login-box h1{
+    margin-top: 150px;
+    padding: 0;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.Login-box label {
+    margin: 50px;
+    padding: 0;
+    font-size: 30px;
+}
+.Login-box input{
+    width: 100%;
+    margin-bottom: 21;
+}
+.Login-box input::placeholder{    
+    padding: 20px;
+    font-size: 25px;
+    color: #707070a4;
+}
+
+.Login-box input[type = "checkbox"]{
+    size: 50px;
+}
+.container label{
+    margin: 0px;
+    font-size: 20px;
+}
+.container input {
+    margin-left: 0px;
+    position:sticky;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+
+.Login-box input[type = "text"],
+.Login-box input[type = "password"]{
+    padding: 20px;
+    height: 25px;
+    width: 400px;
+    margin-left: 50px;
+    font-size: 25px;
+    border-color: 2px #000000;
+    border-radius: 10px;
+    border: #707070;
+    background: white;
+    outline: none;
+}
+
+.Login-box input[type ="submit"]{
+    border: none;
+    outline: none;
+    color: #ffffff;
+    font-size: 25px;
+    height: 50px;
+    width: 190px;
+    cursor: pointer;
+    border-radius: 40px;
+    background: #813D00;
+    font-size: 30;
+}
+.Login-box input[type ="submit"]:hover{
+    color: #813D00;
+    background: #ffffff;
+}
+.Login-box a{
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.Login-box a:hover{
+    color: #4C2400;
+}
